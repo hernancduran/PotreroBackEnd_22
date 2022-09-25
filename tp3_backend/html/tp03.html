@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tp3 LOGIN</title>
+    <link rel="stylesheet" href="../css/estilo-tp03.css">
+    
+    <body>
+      <div class="container">
+        <h3>Formulario de Login</h3>
+        <div class="separator">
+          <hr>
+          <span>...</span>
+          <hr>        
+        </div>
+        <form action="../php/login.php" method="post">
+          <div class="section-inputs">
+            <label for="username">
+              <span>Username</span>
+              <input type="text" name="user" id="username">
+            </label>          
+            <label for="password">
+              <span>Password</span>
+              <input type="password" name="pass" id="password"
+              placeholder="4+ caracteres">
+            </label>
+          </div>
+            <button type="submit" class="submit-btn">Ingresar</button>          
+        </form>
+      </div>
+    </body>
+  </html>
