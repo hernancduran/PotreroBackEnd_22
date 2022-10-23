@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #6C3483;
+    margin: 1rem 2rem 1rem 2rem;
+}
+  
+  .contenedor-head {
+    margin: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .contenedor-marca {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: stretch;
+}
+
+  section.text-logo {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .col-12.text-logo {
+    margin: 0%auto;
+    width: 96vw;
+    filter: drop-shadow(4px 4px 4px #888)
+  }
+
+  .text-logo {
+    background-image: url(../assets/img/BGsephora.png);
+    border: none;
+    border-radius: 10px;
+    margin: 0 2rem 0 2rem;
+    padding: 0.25rem 0rem 0.25rem 0rem; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  h2.text-marca {
+    align-items: flex-start;
+    padding: 0.5rem 0 0.1rem 0;
+    font-family: 'Henny Penny', cursive;
+    font-size: 3rem;
+    margin: auto;
+    font-weight: 600;
+    text-align: end;
+    color: white;
+  }
+/* NOTE: arranca nav-botones filtro */
+
+  .filtros {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button.filtrobtn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
+    background-color: black;
+  }
+
+  button a {
+    padding: 0.75rem;
+    text-decoration:none;
+    color: white;
+  }
+
+/* NOTE: arranca sec-cards */
+
+section.cardsropa {
+  background-color: rgb(123, 107, 138);
+  padding: 2rem 0 2rem 0;
+  margin: 0 1rem 0 1rem;
+}
+
+.contenedor-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-ideas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.card-ppal, .card-vid { 
+  filter: drop-shadow(10px 10px 10px black); 
+  background-color: rgb(80, 94, 94);
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 10px;
+}
+
+img.card-img-top {
+  border-radius: 7.5px;
+}
+
+h5.card-title {
+  align-items: flex-start;
+  padding: 0.5rem 0 0.5rem 0;
+  font-size: 1.75rem;
+  margin: auto;
+  font-weight: 600;
+  text-align: end;
+  color: white;
+}
+
+p.card-text.prenda {
+  align-items: flex-start;
+  padding: 0.5rem 0 0.5rem 0;
+  font-size: 2rem;
+  margin: auto;
+  font-weight: 600;
+  text-align: start;
+  color: black;
+}
+
+span.precio {
+  align-items: flex-start;
+  padding: 0.5rem 0 0.5rem 0;
+  font-size: 1.5rem;
+  margin: auto;
+  font-weight: 600;
+  text-align: start;
+  color: whitesmoke;
+}
+
